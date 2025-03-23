@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maderas Los Puentes - Contacto</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="assets/images/logo.png" alt="Maderas Los Puentes Logo" id="logo-animado">
+    </div>
+    <nav>
+      <div class="menu-hamburguesa" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+        <li><a href="oferta.html">Nuestra Oferta</a></li>
+        <li><a href="usos.html">Usos</a></li>
+        <li><a href="por-que-elegirnos.html">¿Por qué Elegirnos?</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contenido">
+      <h1>Contáctanos</h1>
+      <div class="datos-contacto">
+        <p><strong>Teléfono:</strong> +57 3108068408</p>
+        <p><strong>Dirección:</strong> Carrera 55 #127d – 31, Bogotá, Colombia, Prado Veraniego, BOGOTÁ.</p>
+        <!-- Google Maps Embed -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d4815.08563798671!2d-74.063344!3d4.7128325!3m2!1i1024!2i768!4f13.1!2m1!1smaderas%20los%20puentes%20bogota!5e1!3m2!1sen!2sco!4v1741444782460!5m2!1sen!2sco" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+      </div>
+      <div class="formulario-contacto">
+        <h3>Envíanos un mensaje</h3>
+        <form action="submit_contact.php" method="POST">
+          <input type="text" name="nombre" placeholder="Tu Nombre" required>
+          <input type="email" name="correo" placeholder="Tu Correo" required>
+          <textarea name="mensaje" placeholder="Tu Mensaje" required></textarea>
+          <button type="submit">Enviar Mensaje</button>
+        </form>
+      </div>
+      <div class="whatsapp-contacto">
+        <a href="https://wa.me/tuNumero?text=Hola,%20quiero%20más%20información%20sobre%20sus%20productos">
+          <img src="assets/images/whatsapp.png" alt="WhatsApp">
+          Contactar por WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Maderas Los Puentes. Todos los derechos reservados.</p>
+  </footer>
+  
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
