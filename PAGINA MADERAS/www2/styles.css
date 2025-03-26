@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fdfaf5;
+}
+
+header {
+    background-color: #8b5a2b;
+    color: white;
+    padding: 20px;
+}
+
+.hero {
+    padding: 50px 20px;
+    background-color: #f4e3c1;
+}
+
+.hero img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.about, .gallery, .contact {
+    padding: 40px 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about-content div {
+    max-width: 300px;
+}
+
+.gallery-images img {
+    width: 100px;
+    margin: 10px;
+}
+
+.contact {
+    background-color: #f4e3c1;
+}
+
+footer {
+    background-color: #8b5a2b;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
